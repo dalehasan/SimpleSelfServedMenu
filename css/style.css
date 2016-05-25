@@ -1,0 +1,115 @@
+.imgSource{
+	max-width:100%;
+	max-height: auto;
+border-radius: 20px;
+   box-shadow: 5px 5px 4px grey;
+
+}
+
+
+.jumbotron{
+	background: url("../images/header.jpg") no-repeat right top;
+  background-size:cover;
+  border-radius: 0px !important;
+    color:#fff;
+    height:400px;
+    overflow:auto;
+    margin-top: 20px;
+}
+
+/* define angular animate */
+div {
+  transition: all linear 1s;
+     -webkit-transition: all linear 0.5s;
+  position: relative;
+
+  top: 0;
+  left: 0;
+}
+
+
+.container{
+  margin-top: 20px;
+background-color: white;
+}
+
+body{
+
+   background: url('../images/bg.jpg') no-repeat center center fixed;
+       -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    opacity: 0.96;
+}
+
+.finishBtn{
+  float:left;
+}
+
+.menuFrame{
+border:5px double grey;
+padding: 20px;
+
+background-image: url("../images/bamboo.jpg");
+}
+
+
+.menuFrameInside{
+padding:20px;
+}
+
+
+.ng-enter, .ng-leave
+{ 
+  -webkit-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+  -moz-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+  -ms-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+  -o-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+  transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+  position: relative;
+  display: block;
+} 
+
+.ng-enter, .ng-leave.ng-leave-active{
+	opacity: 1;
+	top:-20px;
+	height: 0px;
+}
+
+.ng-leave, .ng-enter.ng-enter-active{
+	opacity:1;
+	top:0;
+	height: 30px;
+}
+
+
+.foodDiv{
+  transition: all linear 0.5s;
+  padding: 20px;
+   border-radius: 15px;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+
+
+
+.ng-hide {
+  background-color: transparent;
+  top:-20px;
+  left: 0px;
+}
+
+
+.footnote,.footnote a,.footnote a:hover, .footnote a:visited {
+  font-weight: bold;
+  text-align: center;
+  color:#196719;
+  text-decoration: none;
+}
+
